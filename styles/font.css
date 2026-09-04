@@ -1,0 +1,55 @@
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: bold;
+  src: url("./../assets/fonts/woff/iranyekanwebbold.woff") format("woff");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 100;
+  src: url("./../assets/fonts/woff/iranyekanwebthin.woff") format("woff");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 300;
+  src: url("./../assets/fonts/woff/iranyekanweblight.woff") format("woff");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: normal;
+  src: url("./../assets/fonts/woff/iranyekanwebregular.woff") format("woff");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./../assets/fonts/woff/iranyekanwebmedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 800;
+  src: url("./../assets/fonts/woff/iranyekanwebextrabold.woff") format("woff");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 900;
+  src: url("./../assets/fonts/woff/iranyekanwebblack.woff") format("woff");
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 950;
+  src: url("./../assets/fonts/woff/iranyekanwebextrablack.woff") format("woff");
+}
