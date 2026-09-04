@@ -1,2 +1,14 @@
 @import url("./reset.css");
 @import url("./font.css");
+
+* {
+}
+
+html,
+body {
+  font-family: iranyekan;
+  direction: rtl;
+  text-align: right;
+  font-weight: normal;
+  font-size: 1rem;
+}
