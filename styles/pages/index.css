@@ -46,7 +46,9 @@ header .top .right .search_box input {
   outline: none;
   flex-grow: 1;
   height: 100%;
-  color: #3f4064;
+  color: #a1a3a8;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 header .top .left {
@@ -55,25 +57,47 @@ header .top .left {
   gap: 12px;
 }
 
-header .top .left .alarm {
+header .top .left .alarm svg {
+  width: 22px;
+  height: 22px;
 }
 
 header .top .left .sign_in {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
 }
 
-header .top .left span {
+header .top .left .sign_in span{
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+header .top .left .sign_in svg {
+  width: 20px;
+  height: 19px;
+}
+
+header .top .left > span {
   width: 1px;
   height: 24px;
   background-color: #e0e0e2;
 }
 
-header .top .left .cart {
+header .top .left .cart svg{
+    width: 22px;
+    height: 22px;
 }
 
 header .bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 header .bottom nav {
@@ -85,14 +109,67 @@ header .bottom nav ul {
 }
 
 header .bottom nav ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   padding: 0 12px;
+  background-color: #0000;
+  font-size: 12px;
+  font-weight: 400;
+  color: #62666d
+;
+  position: relative;
+}
+header .bottom nav ul li:first-child {
+  color: #2b2b2b;
+  font-weight: bold;
 }
 
-header .bottom address {
+header .bottom nav ul li svg {
+  width: 20px;
+  height: 20px;
+  stroke: #a1a3a8;
+}
+header .bottom nav ul li:first-child svg {
+  stroke: #2b2b2b;
+}
+header .bottom nav ul span {
+  width: 1px;
+  height: 16px;
+  background-color: #e0e0e2;
+}
+header .bottom nav ul li .underline {
+  display: inline-block;
+  width: 0;
+  height: 4px;
+  background-color: crimson;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 300ms;
+}
+header .bottom nav ul li:hover .underline {
+  width: 100%;
 }
 
-header .bottom address svg {
+header .bottom .address {
+  max-width: 121px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 12px;
+  color: #f57f17;
+  background-color: #f57f1712;
+  border-radius: 9999px;
 }
 
-header .bottom address span {
+header .bottom .address svg {
+  width: 18px;
+  height: 18px;
+}
+
+header .bottom .address span {
+  font-size: 12px;
+  font-weight: 700;
 }
