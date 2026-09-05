@@ -1,0 +1,98 @@
+header {
+  background-color: white;
+  box-shadow:
+    0 1px 0 #00000024,
+    0 2px 0 #0000000d;
+}
+
+header .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+header .top .right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header .top .right .logo svg {
+  width: 195px;
+  height: 30px;
+}
+
+header .top .right .search_box {
+  background-color: #f0f0f1;
+  border-radius: 999px;
+  width: 500px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+}
+
+header .top .right .search_box svg {
+  stroke: #a1a3a8;
+  width: 24px;
+  height: 24px;
+}
+
+header .top .right .search_box input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  height: 100%;
+  color: #3f4064;
+}
+
+header .top .left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+header .top .left .alarm {
+}
+
+header .top .left .sign_in {
+}
+
+header .top .left span {
+  width: 1px;
+  height: 24px;
+  background-color: #e0e0e2;
+}
+
+header .top .left .cart {
+}
+
+header .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .bottom nav {
+}
+
+header .bottom nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header .bottom nav ul li {
+  padding: 0 12px;
+}
+
+header .bottom address {
+}
+
+header .bottom address svg {
+}
+
+header .bottom address span {
+}
