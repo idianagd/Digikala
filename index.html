@@ -15,6 +15,10 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/pages/index.css" />
     <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header>
@@ -311,7 +315,60 @@
       </div>
     </header>
     <main>
-      <section class="slider">SLIDER</section>
+      <section class="slider">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/images/pages/home/slider/image-1.gif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/images/pages/home/slider/image-2.webp"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/images/pages/home/slider/image-3.webp"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/images/pages/home/slider/image-4.webp"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/images/pages/home/slider/image-7.webp"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/images/pages/home/slider/image-5.webp"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/pages/home/slider/image-6.gif" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/images/pages/home/slider/image-8.webp"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/pages/home/slider/image-9.gif" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
       <section class="first-category">FIRST CATEGORY</section>
       <section class="discounted-products">DISCOUNTED PRODUCTS</section>
       <section class="banner">BANNERS</section>
@@ -321,5 +378,9 @@
       <section class="suggested-products">SUGGESTED PRODUCTS</section>
     </main>
     <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
