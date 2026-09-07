@@ -1,6 +1,13 @@
 @import url("./reset.css");
 @import url("./font.css");
 
+:roo {
+  --color-red-300: red;
+}
+
+* {
+  font-family: iranyekan;
+}
 
 html,
 body {
@@ -9,4 +16,10 @@ body {
   text-align: right;
   font-weight: normal;
   font-size: 1rem;
+}
+
+.container {
+  max-width: 1676px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
