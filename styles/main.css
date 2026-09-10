@@ -26,8 +26,7 @@ body {
 @media (min-width: 1024px) {
   .content_wrapper {
     max-width: 1336px;
-    padding: 0 16px;
-    margin:24px auto 0 auto;
+    padding: 24px 16px 0 16px;
+    margin: 0 auto;
   }
 }
-
