@@ -117,7 +117,6 @@ header .bottom nav ul {
   display: flex;
   align-items: center;
   list-style: none;
-
 }
 
 header .bottom nav ul li a {
@@ -274,3 +273,121 @@ header .bottom .address span {
   word-break: break-word;
 }
 /* #endregion category */
+/* #region discounted products */
+.discounted_products .content {
+  background-color: #d22c4e;
+  border-radius: 16px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+
+.discounted_products .right {
+  padding: 12px 20px 20px 20px;
+  align-self: stretch;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.discounted_products .right .top {
+  max-width: 64px;
+  height: 64px;
+}
+.discounted_products .right .top svg {
+  width: 100%;
+  height: 64px;
+  object-fit: contain;
+  display: inline-block;
+}
+.discounted_products .right .center {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+.discounted_products .right .center .top {
+  max-width: 126px;
+  height: 28px;
+  display: block;
+}
+.discounted_products .right .center .top svg {
+  width: 100%;
+  object-fit: contain;
+  display: inline-block;
+}
+
+.discounted_products .right .center .bottom {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  height: 24px;
+}
+
+.discounted_products .right .center .bottom .clock {
+  width: 26px;
+  height: 26px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.discounted_products .right .center .bottom .clock .item {
+  max-width: 20px;
+  height: 20px;
+  padding-top: 1px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 2.15;
+  color: #23254e;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.discounted_products .right .center .bottom .colon {
+  max-width: 4px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 2.15;
+  color: #fff;
+}
+.discounted_products .right a {
+  border-radius: 8px;
+  box-shadow: #00000000;
+  transition: transform 0.05ms;
+  cursor: pointer;
+  background-color: #f2f3f5;
+  padding: 4px 8px;
+  height: 32px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.discounted_products .right a span {
+  padding: 2px 6px 0px;
+  color: #333333;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 140%;
+  text-align: right;
+  display: inline-block;
+}
+.discounted_products .right a svg{
+    max-width: 16px;
+    height: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    fill: #333333;
+}
+/* #endregion discounted products */
