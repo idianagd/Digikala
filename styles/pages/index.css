@@ -117,7 +117,6 @@ header .bottom nav ul {
   display: flex;
   align-items: center;
   list-style: none;
-
 }
 
 header .bottom nav ul li a {
@@ -274,3 +273,28 @@ header .bottom .address span {
   word-break: break-word;
 }
 /* #endregion category */
+/* #region #products_slider */
+.products_slider .content {
+  border: 1px solid #e0e0e2;
+  padding-bottom: 24px;
+  border-radius: 16px;
+}
+.products_slider .content .top{
+    
+
+}
+.products_slider .content .top .items{
+
+}
+.products_slider .content .top .items h3{
+    
+}
+.products_slider .content .top .items p{
+    
+}
+
+
+
+
+
+/* #endregion #products_slider */
