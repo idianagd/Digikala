@@ -227,12 +227,15 @@ header .bottom .address span {
 /* #endregion hero slider */
 
 /* #region category */
+.category {
+  margin-top: 16px;
+}
+
 .category .content {
   justify-content: space-between;
   display: flex;
   align-items: flex-start;
   box-sizing: border-box;
-  margin-top: 16px;
 }
 
 .category .items {
@@ -289,13 +292,17 @@ header .bottom .address span {
 /* #endregion category */
 
 /* #region discounted products */
+
+.discounted_products {
+  margin-top: 16px;
+}
+
 .discounted_products .content {
   background-color: #d22c4e;
   border-radius: 16px;
   display: flex;
   overflow: hidden;
   align-items: flex-start;
-  margin-top: 16px;
 }
 
 .discounted_products .right {
