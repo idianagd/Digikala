@@ -580,3 +580,34 @@ header .bottom .address span {
 }
 
 /* #endregion discounted products */
+
+/* #region banner */
+.banner {
+  margin-top: 16px;
+}
+
+.banner .content {
+  display: flex;
+  gap: 16px;
+
+}
+
+.banner .content a {
+  display: block;
+  width: 100%;
+  border-radius: 16px;
+  aspect-ratio: 1.33333 / 1;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.banner .content a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+}
+
+/* #endregion banner */
