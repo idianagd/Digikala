@@ -611,3 +611,115 @@ header .bottom .address span {
 }
 
 /* #endregion banner */
+
+/* #region second_category */
+.second_category {
+  margin-top: 16px;
+}
+
+.second_category .content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.second_category .content .top {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.second_category .content .top h1 {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 180%;
+  padding-bottom: 32px;
+}
+
+.second_category .content .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.second_category .content .bottom .top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.second_category .content .bottom .top .item {
+  width: max-content;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.second_category .content .bottom .top .item img {
+  display: inline-block;
+  max-width: 100px;
+  height: 100px;
+  margin-bottom: 4px;
+  object-fit: contain;
+}
+
+.second_category .content .bottom .top .item p {
+  height: 36px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 180%;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  color: #0c0c0c;
+  text-align: center;
+}
+
+.second_category .content .bottom .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.second_category .content .bottom .bottom .item {
+  width: max-content;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.second_category .content .bottom .bottom .item img {
+  display: inline-block;
+  max-width: 100px;
+  height: 100px;
+  margin-bottom: 4px;
+  object-fit: contain;
+}
+
+.second_category .content .bottom .bottom .item p {
+  height: 36px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 180%;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  color: #0c0c0c;
+  text-align: center;
+}
+
+
+/* #endregion second_category */
