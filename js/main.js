@@ -53,3 +53,12 @@ function showRemaining() {
 }
 
 setInterval(showRemaining, 1000);
+
+var productsSlider = new Swiper(".products_slider", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
