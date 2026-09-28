@@ -479,14 +479,17 @@ header .bottom .address span {
 }
 
 .discounted_products .swiper-slide {
-  width: auto;
+  max-width: 164px;
   height: auto;
+  margin-left: 4px;
   flex-shrink: 0;
   display: flex;
+  margin-left: 4px;
 }
 
 .discounted_products .swiper-slide .product {
-  height: 100% !important;
+  max-width: 164px;
+  height: 100%;
   border: 1px solid #f0f0f1;
   background-color: #fff;
   display: flex;
@@ -495,6 +498,7 @@ header .bottom .address span {
   flex-direction: column;
   box-sizing: border-box;
   cursor: pointer;
+  margin-left: 4px;
 }
 
 .discounted_products .swiper-slide:first-child .product {
@@ -506,17 +510,31 @@ header .bottom .address span {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
-
-.discounted_products .swiper-slide .product img {
+.discounted_products .swiper-slide .product .image {
   max-width: 164px;
   height: 164px;
-  display: inline-block;
-  object-fit: contain;
   justify-content: center;
   align-items: center;
 }
 
-.discounted_products .swiper-slide .product p {
+.discounted_products .swiper-slide .product .image img {
+  display: inline-block;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.discounted_products .swiper-slide .product .paragraph {
+  padding-top: 0;
+  margin-top: 8px;
+  padding: 8px;
+  align-items: flex-end;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.discounted_products .swiper-slide .product .paragraph p {
   font-size: 14px;
   font-weight: 400;
   line-height: 180%;
@@ -525,16 +543,17 @@ header .bottom .address span {
   display: -webkit-box;
   overflow: hidden;
   color: #424750;
+  text-align: right;
 }
 
-.discounted_products .swiper-slide .product .discount {
-  gap: 4px;
-  display: flex;
+.discounted_products .swiper-slide .product .paragraph .discount {
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
+  display: flex;
+  gap: 4px;
 }
 
-.discounted_products .swiper-slide .product .discount .text {
+.discounted_products .swiper-slide .product .paragraph .discount .text {
   width: 34px;
   height: 20px;
   font-size: 12px;
@@ -551,25 +570,30 @@ header .bottom .address span {
   justify-content: center;
 }
 
-.discounted_products .swiper-slide .product .discount .line_through {
+.discounted_products .swiper-slide .product .paragraph .discount .line_through {
   font-size: 12px;
   text-decoration-line: line-through;
   color: #c0c2c5;
   line-height: 16px;
 }
 
-.discounted_products .swiper-slide .product .real_price {
+.discounted_products .swiper-slide .product .paragraph .real_price {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.discounted_products .swiper-slide .product .real_price span {
+.discounted_products .swiper-slide .product .paragraph .real_price span {
   font-size: 19px;
   font-weight: 700;
   line-height: 2.1;
   color: #23254e;
   margin-left: 4px;
+}
+.discounted_products .swiper-slide .product .paragraph .real_price svg {
+  width: 16px;
+  height: 16px;
+  fill: #424750;
 }
 
 .discounted_products .swiper-slide img {
