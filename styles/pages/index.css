@@ -479,18 +479,14 @@ header .bottom .address span {
 }
 
 .discounted_products .swiper-slide {
-  max-width: 164px;
   height: auto;
-  margin-left: 4px;
+
   flex-shrink: 0;
   display: flex;
-  margin-left: 4px;
 }
 
 .discounted_products .swiper-slide .product {
-  max-width: 164px;
   height: 100%;
-  border: 1px solid #f0f0f1;
   background-color: #fff;
   display: flex;
   overflow: hidden;
@@ -498,7 +494,6 @@ header .bottom .address span {
   flex-direction: column;
   box-sizing: border-box;
   cursor: pointer;
-  margin-left: 4px;
 }
 
 .discounted_products .swiper-slide:first-child .product {
@@ -511,7 +506,6 @@ header .bottom .address span {
   border-bottom-left-radius: 8px;
 }
 .discounted_products .swiper-slide .product .image {
-  max-width: 164px;
   height: 164px;
   justify-content: center;
   align-items: center;
@@ -520,8 +514,7 @@ header .bottom .address span {
 .discounted_products .swiper-slide .product .image img {
   display: inline-block;
   width: 100%;
-  object-fit: contain;
-  border-radius: 8px;
+  object-fit: cover;
 }
 .discounted_products .swiper-slide .product .paragraph {
   padding-top: 0;
