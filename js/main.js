@@ -64,7 +64,7 @@ var productsSlider = new Swiper(".products_slider_swiper", {
 });
 
 var popularBrands = new Swiper(".popular_brands_swiper", {
-  slidesPerView: 13.75,
+  slidesPerView: 12.5,
   spaceBetween: 12,
   navigation: {
     nextEl: ".swiper-button-next",
