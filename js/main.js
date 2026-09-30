@@ -62,3 +62,12 @@ var productsSlider = new Swiper(".products_slider_swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+var suggestedProducts = new Swiper(".suggested_products_swiper", {
+  slidesPerView: 4,
+  spaceBetween: 4,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
