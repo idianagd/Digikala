@@ -1025,7 +1025,7 @@ header .bottom .address span {
   display: block;
 }
 
-.popular_brands .bottom .content .bottom .swiper .swiper-slide .items h4 {
+.popular_brands .content .bottom .swiper .swiper-slide .items h4 {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   display: -webkit-box;
@@ -1038,7 +1038,7 @@ header .bottom .address span {
   padding-left: 8px;
   padding-right: 8px;
 }
-.popular_brands .bottom .swiper .swiper-button-next {
+.popular_brands .content .bottom .swiper .swiper-button-next {
   cursor: pointer;
   left: 8px;
   border: 1px solid #e0e0e2;
@@ -1052,14 +1052,14 @@ header .bottom .address span {
   align-items: center;
 }
 
-.popular_brands .bottom .swiper .swiper-button-next svg {
+.popular_brands .content .bottom .swiper .swiper-button-next svg {
   width: 24px;
   height: 24px;
   fill: #424750;
   opacity: 0.7;
 }
 
-.popular_brands .bottom .swiper .swiper-button-prev {
+.popular_brands .content .bottom .swiper .swiper-button-prev {
   cursor: pointer;
   left: 8px;
   border: 1px solid #e0e0e2;
@@ -1073,8 +1073,8 @@ header .bottom .address span {
   align-items: center;
 }
 
-.popular_brands .bottom .swiper .swiper-button-prev svg,
-.popular_brands .bottom .swiper .swiper-button-next svg {
+.popular_brands .content .bottom .swiper .swiper-button-prev svg,
+.popular_brands .content .bottom .swiper .swiper-button-next svg {
   width: 24px;
   height: 24px;
   fill: none;
