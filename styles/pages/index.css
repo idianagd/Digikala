@@ -941,7 +941,6 @@ header .bottom .address span {
 
 /* #endregion #products_slider */
 
-
 /* #region suggested_products */
 .suggested_products {
   margin-top: 24px;
@@ -1015,7 +1014,6 @@ header .bottom .address span {
 
 .suggested_products .content .bottom .swiper .swiper-slide .box .item .text {
   display: flex;
- 
 }
 
 .suggested_products
@@ -1027,8 +1025,8 @@ header .bottom .address span {
   .item
   .text
   .number {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   font-size: 14px;
   font-weight: 700;
   margin-left: 8px;
@@ -1041,23 +1039,13 @@ header .bottom .address span {
   height: 22px;
   min-width: 22px;
   min-height: 22px;
-
 }
 
-.suggested_products
-  .content
-  .bottom
-  .swiper
-  .swiper-slide
-  .box
-  .item
-  .text
-  p {
-    color: #3f4064;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 180%;
-
+.suggested_products .content .bottom .swiper .swiper-slide .box .item .text p {
+  color: #3f4064;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 180%;
 }
 
 .suggested_products .content .bottom .swiper .swiper-button-next {
@@ -1419,6 +1407,7 @@ footer .content .forth .last_item .bottom .items input {
   font-weight: 400;
   color: #a2a2a2;
   caret-color: #ef4056;
+  padding-right: 15px;
 }
 footer .content .forth .last_item .bottom .items .botton {
   display: flex;
