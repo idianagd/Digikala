@@ -107,3 +107,19 @@ newsLetterInput.addEventListener("input", (e) => {
     newsLetterSubmitButton.disabled = true;
   }
 });
+
+// Expandable Component
+const expandableElement = document.getElementById("expandable");
+const expandableToggleButtonElement = document.querySelector(
+  "#expandable > button#show_more",
+);
+
+expandableToggleButtonElement.addEventListener("click", () => {
+  if (expandableElement.classList.contains("open")) {
+    expandableElement.classList.remove("open");
+    expandableToggleButtonElement.textContent = "مشاهده بیشتر";
+  } else {
+    expandableElement.classList.add("open");
+    expandableToggleButtonElement.textContent = "بستن";
+  }
+});
