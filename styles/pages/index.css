@@ -1,4 +1,4 @@
-@import url('./../ui/expandable.css');
+@import url("./../ui/expandable.css");
 
 /* #region header */
 header {
@@ -100,7 +100,7 @@ header .middle .left .sign_in svg {
   height: 19px;
 }
 
-header .middle .left>span {
+header .middle .left > span {
   width: 1px;
   height: 24px;
   background-color: #e0e0e2;
@@ -1027,7 +1027,15 @@ header .bottom .address span {
   margin-left: 12px;
 }
 
-.suggested_products .content .bottom .swiper .swiper-slide .box .item .image img {
+.suggested_products
+  .content
+  .bottom
+  .swiper
+  .swiper-slide
+  .box
+  .item
+  .image
+  img {
   width: 88px;
   height: 88px;
   object-fit: contain;
@@ -1037,7 +1045,15 @@ header .bottom .address span {
   display: flex;
 }
 
-.suggested_products .content .bottom .swiper .swiper-slide .box .item .text .number {
+.suggested_products
+  .content
+  .bottom
+  .swiper
+  .swiper-slide
+  .box
+  .item
+  .text
+  .number {
   display: flex;
   justify-content: center;
   font-size: 14px;
@@ -1530,6 +1546,53 @@ footer .content .fifth .left .second {
   background-color: #fff;
 }
 
-footer .content .fifth .left .second svg {}
+footer .content .six {
+  border-top: 1px solid #f0f0f1;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .content .six .right {
+  width: 1167px;
+}
+footer .content .six .left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .content .six .left .image{
+  width: 75px;
+  height: 75px;
+  padding: 16px;
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right:8px ;
+
+
+}
+footer .content .six .left .image img{
+  width: 100%;
+  object-fit: contain;
+}
+footer .content .seventh{
+  border-top: 1px solid #f0f0f1;
+  padding: 32px 0;
+
+}
+footer .content .seventh p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #81858b;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+
 
 /* #endregion footer  */
