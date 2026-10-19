@@ -80,3 +80,46 @@ var popularBrands = new Swiper(".popular_brands_swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+// Scroll To Top
+const goToTopButton = document.getElementById("goToTop");
+
+function GoToTop() {
+  window.scrollTo(0, 0);
+}
+
+goToTopButton.addEventListener("click", GoToTop);
+
+// NewsLetter Form Handler
+const newsLetterForm = document.getElementById("newsletter_form");
+const newsLetterInput = document.getElementById("newsletter_input");
+const newsLetterSubmitButton = document.getElementById("newsletter_submit");
+
+newsLetterForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("ایمیل شما در خبرنامه ثبت شد با تشکر!");
+});
+
+newsLetterInput.addEventListener("input", (e) => {
+  if (e.target.value) {
+    newsLetterSubmitButton.disabled = false;
+  } else {
+    newsLetterSubmitButton.disabled = true;
+  }
+});
+
+// Expandable Component
+const expandableElement = document.getElementById("expandable");
+const expandableToggleButtonElement = document.querySelector(
+  "#expandable > button#show_more",
+);
+
+expandableToggleButtonElement.addEventListener("click", () => {
+  if (expandableElement.classList.contains("open")) {
+    expandableElement.classList.remove("open");
+    expandableToggleButtonElement.textContent = "مشاهده بیشتر";
+  } else {
+    expandableElement.classList.add("open");
+    expandableToggleButtonElement.textContent = "بستن";
+  }
+});
